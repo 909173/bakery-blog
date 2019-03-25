@@ -6,25 +6,14 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
-export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
-  main,
-}) => (
+export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch, description, intro, main }) => (
   <div>
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
+        backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image})`,
         backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
+        backgroundAttachment: `fixed`
       }}
     >
       <div
@@ -34,18 +23,17 @@ export const IndexPageTemplate = ({
           lineHeight: '1',
           justifyContent: 'space-around',
           alignItems: 'left',
-          flexDirection: 'column',
+          flexDirection: 'column'
         }}
       >
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            boxShadow: 'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
             backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
             lineHeight: '1',
-            padding: '0.25em',
+            padding: '0.25em'
           }}
         >
           {title}
@@ -53,12 +41,11 @@ export const IndexPageTemplate = ({
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            boxShadow: 'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
             backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
             lineHeight: '1',
-            padding: '0.25em',
+            padding: '0.25em'
           }}
         >
           {subheading}
@@ -81,9 +68,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
+                    <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
                     <p>{description}</p>
                   </div>
                 </div>
@@ -96,9 +81,7 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
+                  <h3 className="has-text-weight-semibold is-size-2">Latest stories</h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
@@ -123,8 +106,8 @@ IndexPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+    blurbs: PropTypes.array
+  })
 }
 
 const IndexPage = ({ data }) => {
@@ -148,9 +131,9 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
+      frontmatter: PropTypes.object
+    })
+  })
 }
 
 export default IndexPage
