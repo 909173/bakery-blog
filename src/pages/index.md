@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Bakery Lico
 image: /img/1114004.png
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
