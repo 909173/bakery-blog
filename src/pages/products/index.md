@@ -1,8 +1,7 @@
 ---
-templateKey: 'product-page'
-path: /products
-title: Our Coffee
-image: /img/home-jumbotron.jpg
+templateKey: product-page
+title: Our Bread
+image: /img/1114004.png
 heading: Great coffee with a conscience
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -99,3 +98,4 @@ pricing:
       plan: Custom
       price: '??'
 ---
+
