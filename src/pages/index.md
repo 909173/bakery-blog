@@ -3,7 +3,7 @@ templateKey: index-page
 title: Bakery Lico
 image: /img/1114004.png
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: 美味しいパン😋
 mainpitch:
   title: Why Kaldi
   description: >
