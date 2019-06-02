@@ -2,12 +2,11 @@
 templateKey: index-page
 title: Bakery Lico
 image: /img/1114004.png
-heading: 素材と製法にこだわりを
+heading: 素材と製法にこだわり
 subheading: からだにやさしく、おいしいパンづくり
 mainpitch:
-  title: Why Lico
-  description: >-
-    Licoとはハワイの言葉で『つぼみ・若葉』を表します。青々とした未来へのエネルギーをこめました。Licoのパンを食べてみんなが笑顔にしあわせになるようにと願っています。
+  title: Licoとは
+  description: Licoはハワイの言葉で『つぼみ・若葉』という意味です。Licoのパンを食べてみんなが笑顔にしあわせになるようにと願っています。
 description: >-
   天然酵母や国産小麦をつかったからだにやさしく、おいしいパンをつくることを目指しています。季節を感じる野菜やくだものをつかったマフィンやキッシュなどをこころをこめて焼き上げています。
 intro:
