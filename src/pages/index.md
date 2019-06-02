@@ -2,20 +2,14 @@
 templateKey: index-page
 title: Bakery Lico
 image: /img/1114004.png
-heading: Great coffee with a conscience
-subheading: 美味しいパン😋
+heading: 素材と製法にこだわりを
+subheading: からだにやさしく、おいしいパンづくり
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: Why Lico
+  description: >-
+    Licoとはハワイの言葉で『つぼみ・若葉』を表します。青々とした未来へのエネルギーをこめました。Licoのパンを食べてみんなが笑顔にしあわせになるようにと願っています。
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  天然酵母や国産小麦をつかったからだにやさしく、おいしいパンをつくることを目指しています。季節を感じる野菜やくだものをつかったマフィンやキッシュなどをこころをこめて焼き上げています。
 intro:
   blurbs:
     - image: /img/coffee.png
