@@ -11,13 +11,11 @@ description: >-
   天然酵母や国産小麦をつかったからだにやさしく、おいしいパンをつくることを目指しています。季節を感じる野菜やくだものをつかったマフィンやキッシュなどをこころをこめて焼き上げています。
 intro:
   blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+    - image: /img/小麦粉.png
+      text: |
+        Licoのパンには国産小麦を使用しています。
+        使用銘柄：春よ恋、はるゆたかブレンド、
+        キタノカオリ、とみざわからの贈り物　等
     - image: /img/coffee-gear.png
       text: >
         We offer a small, but carefully curated selection of brewing gear and
