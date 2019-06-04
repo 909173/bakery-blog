@@ -3,7 +3,7 @@ templateKey: index-page
 title: Bakery Lico
 image: /img/1114004.png
 heading: 素材と製法にこだわり
-subheading: からだにやさしくパンづくり
+subheading: からだにやさしパンづくり
 mainpitch:
   title: Licoとは
   description: Licoはハワイの言葉で『つぼみ・若葉』という意味です。Licoのパンを食べてみんなが笑顔にしあわせになるようにと願っています。
@@ -16,7 +16,7 @@ intro:
         Licoのパンには国産小麦を使用しています。
         使用銘柄：春よ恋、はるゆたかブレンド、
         キタノカオリ、とみざわからの贈り物　等
-    - image: /img/publicdomainq-0013427azk.jpg
+    - image: /img/野菜と果物.png
       text: |
         旬の野菜やくだものをつかってパン、マフィン、キッシュを焼いています。食事を通じて季節を感じていただけたらと思います。
   heading: What we offer
