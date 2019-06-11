@@ -11,12 +11,12 @@ description: >-
   天然酵母や国産小麦をつかったからだにやさしく、おいしいパンをつくることを目指しています。季節を感じる野菜やくだものをつかったマフィンやキッシュなどをこころをこめて焼き上げています。
 intro:
   blurbs:
-    - image: /img/小麦粉.png
+    - image: /img/flour.png
       text: |
         Licoのパンには国産小麦を使用しています。
         使用銘柄：春よ恋、はるゆたかブレンド、
         キタノカオリ、とみざわからの贈り物　等
-    - image: /img/野菜と果物.png
+    - image: /img/vege-and-fruits.png
       text: |
         旬の野菜やくだものをつかってパン、マフィン、キッシュを焼いています。食事を通じて季節を感じていただけたらと思います。
   heading: What we offer
